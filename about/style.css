@@ -1,6 +1,7 @@
 
 body {
 	background-color: black;
+	font-family: "Arial", Times, sans-serif;
 }
 
 .navbar {
@@ -39,4 +40,23 @@ body {
 	text-decoration: none;
 	background-color: #000000;
 	float: left;
+}
+
+.intro_text {
+	color: #ffffff;
+	font-size: 20px;
+	font-family: "Arial",Times, sans-serif;
+}
+
+.content_div1 {
+	background-color: black;
+	border-top: 2px dashed #8c8b8b;
+}
+
+.body_content {
+	margin-left: 100px; margin-right: 100px;
+}
+
+.recent_content_header {
+	color: white;
 }
