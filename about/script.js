@@ -6,13 +6,12 @@ function readingAllChildren() {
 		snapshot.forEach(function(childSnapshot) {
 			console.log(childSnapshot.val().title + "\n" + childSnapshot.val().description + "\n" + childSnapshot.val().content);
 			var entry = document.createElement('li');
+			var subEntry = document.createElement('li');
 			entry.appendChild(document.createTextNode(childSnapshot.val().title));
-			entry.appendChild(document.createTextNode(childSnapshot.val().description));
-			document.getElementById('post_list_cardview').appendChild(entry);
+			subEntry.appendChild(document.createTextNode('\n' + childSnapshot.val().description));
+			entry.appendChild(subEntry);
+			list.appendChild(entry);
 		});
 	});
 }
-
 readingAllChildren();
-
-// NEED TO CREATE SOME SORT OF CARD VIEW TO DISPLAY POSTS!!!
