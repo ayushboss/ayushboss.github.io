@@ -9,7 +9,7 @@ function readDataSnapshot() {
 function attemptAtReadingAllChildren() {
 	return database.ref('/posts').once('value').then(function(snapshot) {
 		snapshot.forEach(function(childSnapshot) {
-			console.log(childSnapshot.key + " " + childSnapshot.val());
+			console.log(childSnapshot.val().title + "\n" + childSnapshot.val().description + "\n" + childSnapshot.val().content);
 		});
 	});
 }
