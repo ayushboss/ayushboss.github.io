@@ -61,3 +61,11 @@ body {
 .recent_content_header {
 	color: white;
 }
+
+#nav_sel {
+	color: green;
+}
+
+#post_list_cardview {
+	color: white;
+}
