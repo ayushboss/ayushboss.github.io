@@ -1,6 +1,5 @@
 var database = firebase.database();
-var list = document.getElementById('post_list_cardview');
-var recent_posts = document.getElementById('recent_posts');
+var recent_posts = document.getElementById('posts');
 
 function readingAllChildren() {
 	return database.ref('/posts').once('value').then(function(snapshot) {
