@@ -85,3 +85,7 @@ body {
 	float: left;
 }
 
+.picture_content_header {
+	color: white;
+	text-decoration: underline;
+}
