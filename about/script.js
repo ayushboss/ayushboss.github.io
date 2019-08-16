@@ -11,7 +11,7 @@ function readingAllChildren() {
 
 			var rDate = childSnapshot.val().date;
 			
-			var entry = document.createElement('p');
+			var entry = document.createElement('h2');
 			var subEntry = document.createElement('p');
 			var dateEntry = document.createElement('p');
 

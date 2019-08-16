@@ -6,7 +6,7 @@ body {
 
 .navbar {
 	text-decoration: underline;
-	width: 100%;  background-color: #0b98de;
+	width: 100%;  background-color: black;
 	text-align: center;
 	display: block;
 	margin: 0px;
@@ -60,6 +60,7 @@ body {
 
 .recent_content_header {
 	color: white;
+	text-decoration: underline;
 }
 
 #nav_sel {
@@ -73,3 +74,14 @@ body {
 .recent_posts {
 	color: white;
 }
+
+.left_half {
+	width: 50%;
+	float: left;
+}
+
+.recents {
+	width: 50%;
+	float: left;
+}
+
