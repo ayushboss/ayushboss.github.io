@@ -13,7 +13,7 @@ function readingAllChildren() {
 			var entry = document.createElement('a');
 
 			entry.style.fontSize = "24px";
-			entry.href="../blog/posts/" + childSnapshot.key + ".html";
+			entry.href="../blog/posts/" + childSnapshot.key + "/" + childSnapshot.key + ".html";
 
 			var tag = document.createElement('a');
 			var subEntry = document.createElement('p');
