@@ -1,8 +1,25 @@
 var database = firebase.database();
 var list = document.getElementById('post_list_cardview');
 var recent_posts = document.getElementById('recent_posts');
+var l = 0;
+
+function updateViewCount() {
+	database.ref('/visit_count').set({
+		visit_count: l + 1
+	});
+}
 
 function readingAllChildren() {
+
+	database.ref('/visit_count').once('value').then(function(snapshot) {
+		l = snapshot.val().visit_count;
+		console.log("view count: " + l);
+		updateViewCount();
+
+		var viewCountParagraph = document.getElementById("view_count_p");
+		viewCountParagraph.appendChild(document.createTextNode("View Count: " + l.toString()));
+	})
+
 	return database.ref('/posts').once('value').then(function(snapshot) {
 		snapshot.forEach(function(childSnapshot) {
 			var link = document.createElement('a');
