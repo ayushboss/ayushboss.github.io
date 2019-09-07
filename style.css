@@ -90,7 +90,7 @@ body {
 	text-decoration: underline;
 }
 
-.view_count_p {
+#view_count {
 	color: white;
 	font-size: 40px;
 	text-align: center;

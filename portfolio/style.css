@@ -69,3 +69,19 @@ body {
 	color: white;
 	text-decoration: underline;
 }
+
+.item_description {
+	color: white;
+	padding-left: 10px;
+	align: right;
+}
+
+.caption_title {
+	padding-left: 10px;
+	align: left;
+}
+
+.icon_image {
+	width: 200px;
+	height: 200px;
+}
