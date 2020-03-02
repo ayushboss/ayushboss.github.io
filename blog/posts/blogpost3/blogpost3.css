@@ -1,0 +1,116 @@
+
+body {
+	background-color: black;
+	font-family: "Arial", Times, sans-serif;
+}
+
+.navbar {
+	text-decoration: underline;
+	width: 100%;  background-color: black;
+	text-align: center;
+	display: block;
+	margin: 0px;
+}
+
+.navbar a {
+	display:block;
+	border: 1px solid #000;
+	padding-top: 20px;    padding-right: 0px;    padding-bottom: 10px;    padding-left: 0px;
+	text-decoration: none;
+	width:19%;
+	background-color: #000000;
+	float: left;
+	transition: color 0.25s ease-in-out;
+	color: #ffffff;
+	font-size: 32px;
+	font-family: "Arial", Times, sans-serif;
+}
+.navbar a:hover {
+	color: orange;
+}
+
+.dTitle {
+	text-align: center;
+}
+
+.home_image {
+	display:block;
+	border: 1px solid #000;
+	padding-top: 20px;    padding-right: 10px;    padding-bottom: 10px;    padding-left: 10px;
+	text-decoration: none;
+	background-color: #000000;
+	float: left;
+	width: 70%;
+}
+
+.intro_text {
+	color: #ffffff;
+	font-size: 20px;
+	font-family: "Arial",Times, sans-serif;
+}
+
+.content_div1 {
+	background-color: black;
+	border-top: 2px dashed #8c8b8b;
+}
+
+.body_content {
+	margin-left: 100px; margin-right: 100px;
+}
+
+.recent_content_header {
+	color: white;
+	text-decoration: underline;
+}
+
+#nav_sel {
+	color: green;
+}
+
+#post_list_cardview {
+	color: white;
+}
+
+.recent_posts {
+	color: white;
+}
+
+.left_half {
+	width: 50%;
+	float: left;
+}
+
+.recents {
+	width: 90%;
+	float: left;
+}
+
+.picture_content_header {
+	color: white;
+	text-decoration: underline;
+}
+
+.pic {
+	align-content: center;
+	width: 50%; height: 50%;
+}
+
+.total_body {
+	margin-left: 100px; margin-right: 100px;
+	color: white;
+}
+
+h6 {
+	font-style: italic;
+}
+
+p {
+	text-indent: 1em;
+	padding-top: 1em;
+}
+
+.image_caption {
+	color: grey;
+	font-style: italic;
+	text-align: center;
+}
