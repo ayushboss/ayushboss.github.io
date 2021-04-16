@@ -29,6 +29,32 @@ body {
 	color: orange;
 }
 
+.subNavbar {
+	text-decoration: underline;
+	width: 100%;  background-color: #0b98de;
+	text-align: right;
+	display: block;
+	margin: 0px;
+}
+
+.subNavbar a {
+	display:block;
+	border: 1px solid #000;
+	padding-top: 20px;    padding-right: 0px;    padding-bottom: 10px;    padding-left: 20px;
+	text-decoration: none;
+	width:19%;
+	background-color: #000000;
+	float: left;
+	transition: color 0.25s ease-in-out;
+	color: #ffffff;
+	font-size: 20px;
+	font-family: "Arial", Times, sans-serif;
+}
+
+.subNavbar a:hover {
+	color: red;
+}
+
 .dTitle {
 	text-align: center;
 }
@@ -72,7 +98,7 @@ body {
 
 .item_description {
 	color: white;
-	padding-left: 10px;
+	padding-left: 30px;
 	align: right;
 }
 
@@ -84,4 +110,17 @@ body {
 .icon_image {
 	width: 200px;
 	height: 200px;
+	padding-right: 25px;
+}
+
+.name_and_id {
+	color: white;
+	float: left;
+	padding-left: 10px;
+	align: right;
+}
+
+.description {
+	color: white;
+	padding-left: 20px;
 }
