@@ -4,9 +4,13 @@ body {
 	font-family: "Arial", Times, sans-serif;
 }
 
+.dNavbar {
+	background-color: #424242;
+}
+
 .navbar {
 	text-decoration: underline;
-	width: 100%;  background-color: #0b98de;
+	width: 100%;  background-color: #424242;
 	text-align: center;
 	display: block;
 	margin: 0px;
@@ -18,7 +22,7 @@ body {
 	padding-top: 20px;    padding-right: 0px;    padding-bottom: 10px;    padding-left: 0px;
 	text-decoration: none;
 	width:19%;
-	background-color: #000000;
+	background-color: #424242;
 	float: left;
 	transition: color 0.25s ease-in-out;
 	color: #ffffff;
